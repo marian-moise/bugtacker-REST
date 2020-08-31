@@ -9,8 +9,8 @@ public class IssueDTO implements Serializable {
     String identifier;
     String description;
 
-    public IssueDTO(Integer projectId, String name) {
-        this.projectId = projectId;
+    public IssueDTO(Integer projectIdd, String name) {
+        this.projectId = projectIdd;
         this.name = name;
     }
 
