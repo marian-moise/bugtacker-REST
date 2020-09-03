@@ -14,6 +14,7 @@ public class IssueDTO implements Serializable {
         this.name = name;
     }
 
+
     public IssueDTO() {
     }
 
